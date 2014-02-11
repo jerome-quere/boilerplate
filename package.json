@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "version": "",
+    "author": "Jerome Quere <contact@jeromequere.com>",
+    "description": "",
+    "devDependencies": {
+	"gulp": "*",
+	"gulp-clean": "*",
+	"gulp-coffee": "*",
+	"gulp-concat": "*",
+	"gulp-connect": "*",
+	"gulp-less": "*",
+	"gulp-minify-css": "*",
+	"gulp-uglify": "*"
+    }
+}
