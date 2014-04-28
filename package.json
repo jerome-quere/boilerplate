@@ -11,6 +11,7 @@
 	"gulp-connect": "*",
 	"gulp-less": "*",
 	"gulp-minify-css": "*",
-	"gulp-uglify": "*"
+	"gulp-uglify": "*",
+	"connect-modrewrite": "*"
     }
 }

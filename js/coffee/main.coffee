@@ -22,4 +22,9 @@
 # THE SOFTWARE.
 ##
 
-app = angular.module('app', []);
+app = angular.module('app', ['ngRoute']);
+
+app.config ['$locationProvider', '$routeProvider', ($locationProvider, $routeProvider) ->
+	#$routeProvider.when('/', {templateUrl: ""});
+	$locationProvider.html5Mode(true);
+]
