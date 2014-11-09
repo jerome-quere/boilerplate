@@ -2,16 +2,21 @@
     "name": "",
     "version": "",
     "author": "Jerome Quere <contact@jeromequere.com>",
-    "description": "",
+    "description": "This is my html5 app boilerplate",
+    "repository": {
+	"type" : "git",
+	"url" : "https://github.com/jerome-quere/boilerplate.git"
+    },
     "devDependencies": {
 	"gulp": "*",
-	"gulp-clean": "*",
 	"gulp-coffee": "*",
 	"gulp-concat": "*",
 	"gulp-connect": "*",
-	"gulp-less": "*",
+	"gulp-sass": "*",
 	"gulp-minify-css": "*",
 	"gulp-uglify": "*",
-	"connect-modrewrite": "*"
+	"connect-modrewrite": "*",
+	"del": "*",
+	"beepbeep": "*"
     }
 }
