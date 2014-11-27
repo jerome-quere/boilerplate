@@ -79,7 +79,7 @@ gulp.task('connect', function (){
 	open:false,
 	middleware: function (connect, opt) {
 	    return [modRewrite([
-		'^(.*\.(js|css|gif|jpg|png|html|pdf|woff|eot|ttf|svg)(\\?.*)?)$ /$1 [L]',
+		'^(.*\.(js|json|css|gif|jpg|png|html|pdf|woff|eot|ttf|svg)(\\?.*)?)$ /$1 [L]',
 		'^(.*)$ /index.html'
 	    ])];
 	}
